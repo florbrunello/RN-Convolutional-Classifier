@@ -1,0 +1,26 @@
+{
+    "Exp 1": {
+        "learning_rate": 0.001,
+        "p_dropout_clf": 0.2,
+        "final_valid_precision": 0.8934,
+        "final_valid_loss": 0.3058313399553299,
+        "model_path": "experimentos_resultados/exp_1_model.pt",
+        "metrics_path": "experimentos_resultados/exp_1_metrics.pt"
+    },
+    "Exp 2": {
+        "learning_rate": 0.001,
+        "p_dropout_clf": 0.4,
+        "final_valid_precision": 0.8804,
+        "final_valid_loss": 0.33252319544553754,
+        "model_path": "experimentos_resultados/exp_2_model.pt",
+        "metrics_path": "experimentos_resultados/exp_2_metrics.pt"
+    },
+    "Exp 3": {
+        "learning_rate": 0.001,
+        "p_dropout_clf": 0.6,
+        "final_valid_precision": 0.848,
+        "final_valid_loss": 0.44225631296634677,
+        "model_path": "experimentos_resultados/exp_3_model.pt",
+        "metrics_path": "experimentos_resultados/exp_3_metrics.pt"
+    }
+}
