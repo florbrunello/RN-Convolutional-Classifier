@@ -3,9 +3,9 @@ import torch.nn as nn
 
 
 class Autoencoder(nn.Module):
-    """Experimento 1: Autoencoder convolucional básico"""
+    """Autoencoder convolucional"""
 
-    def __init__(self, dropout = 0.15):
+    def __init__(self, dropout = 0.2):
         super().__init__()
         # Encoder: (1, 28, 28) -> (32, 14, 14) -> (64, 7, 7)
         self.encoder = nn.Sequential(
@@ -32,10 +32,3 @@ class Autoencoder(nn.Module):
         x = self.encoder(x)
         x = self.decoder(x)
         return x
-    
-# Prueba rápida
-if __name__ == "__main__":
-    model = Autoencoder()
-    x = torch.randn(1,1,28,28)
-    y = model(x)
-    print(y.shape)  # torch.Size([1,1,28,28])
