@@ -1,0 +1,8 @@
+{
+    "final_train_precision": 0.8888333333333334,
+    "final_valid_precision": 0.8737,
+    "final_valid_loss": 0.3462978948652744,
+    "model_path": "resultados/modelo.pt",
+    "checkpoint_path": "resultados/checkpoint.pt",
+    "metrics_path": "resultados/metricas.pt"
+}
