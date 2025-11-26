@@ -7,8 +7,8 @@
         "n1": 64,
         "n2": 32
     },
-    "final_train_loss": 0.17823700659597913,
-    "final_valid_loss": 0.33152086108922957,
-    "final_train_precision": 0.9313,
-    "final_valid_precision": 0.8919
+    "final_train_loss": 0.17829749979078768,
+    "final_valid_loss": 0.28851938135921956,
+    "final_train_precision": 0.9321166666666667,
+    "final_valid_precision": 0.9022
 }
