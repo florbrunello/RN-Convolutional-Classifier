@@ -1,6 +1,6 @@
 import torch.nn as nn
 
-class Clasificadora2(nn.Module):
+class Clasificadora(nn.Module):
     def __init__(self, p, encoder=None):
         super().__init__()
         self._dropout = p
@@ -11,22 +11,17 @@ class Clasificadora2(nn.Module):
             nn.Flatten(),
             
             # Capa 1
-            nn.Linear(in_features = 64*7*7, out_features = 256),
+            nn.Linear(in_features = 64*7*7, out_features = 512),
             nn.ReLU(),
             nn.Dropout(p),
             
             # Capa 2
-            nn.Linear(in_features = 256, out_features = 128),
-            nn.ReLU(),
-            nn.Dropout(p),
-            
-            # Capa 2
-            nn.Linear(in_features = 128, out_features = 64),
+            nn.Linear(in_features = 512, out_features = 256),
             nn.ReLU(),
             nn.Dropout(p),
 
             # Capa 3
-            nn.Linear(in_features = 64, out_features = 10)
+            nn.Linear(in_features = 256, out_features = 10)
         )
     
     def forward(self, x):
