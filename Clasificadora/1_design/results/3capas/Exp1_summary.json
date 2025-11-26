@@ -1,0 +1,15 @@
+{
+    "config": {
+        "tipo_modelo": "Clasificadora2",
+        "p_dropout_clf": 0.2,
+        "learning_rate": 0.001,
+        "num_epochs": 100,
+        "n1": 128,
+        "n2": 64,
+        "n3": 32
+    },
+    "final_train_loss": 0.16976367898285388,
+    "final_valid_loss": 0.2669075857847929,
+    "final_train_precision": 0.9364666666666667,
+    "final_valid_precision": 0.9092
+}
