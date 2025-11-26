@@ -1,0 +1,14 @@
+{
+    "exp1": {
+        "train_loss_final": 0.002497066605137661,
+        "valid_loss_final": 0.0025435068202205
+    },
+    "exp2": {
+        "train_loss_final": 0.003968709686305374,
+        "valid_loss_final": 0.004061558719258756
+    },
+    "exp3": {
+        "train_loss_final": 0.0041520308796316385,
+        "valid_loss_final": 0.004199758898466826
+    }
+}
