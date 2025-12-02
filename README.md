@@ -1,5 +1,5 @@
 # Convolutional Autoencoder and Classifier for Fashion-MNIST with Pre-Training  
-### Final Integrative Project – Brunello, Florencia Luciana (2025)
+### Brunello, Florencia Luciana (2025)
 
 This repository contains the implementation of a deep convolutional autoencoder and a deep convolutional classifier trained on the Fashion-MNIST dataset, including experiments on hyperparameter evaluation, pre-training, fine-tuning, and performance analysis.
 
